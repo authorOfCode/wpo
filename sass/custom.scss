@@ -1,7 +1,7 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Source+Sans+Pro&display=swap');
-$family-sans-serif: 'Source Sans Pro', sans-serif;
-$title-family: 'Open Sans', sans-serif;;
+$family-sans-serif: 'aktiv-grotesk', sans-serif;
+$title-family: 'aktiv-grotesk', sans-serif;
+$family-primary: $family-sans-serif;
 
 @import "../node_modules/bulma/sass/utilities/_all.sass";
 @import "../node_modules/bulma/sass/base/_all.sass";
@@ -12,3 +12,4 @@ $title-family: 'Open Sans', sans-serif;;
 @import "../node_modules/bulma/sass/components/navbar.sass";
 @import "../node_modules/bulma/sass/layout/hero.sass";
 @import "../node_modules/bulma/sass/layout/section.sass";
+@import "../node_modules/bulma/sass/grid/columns.sass";
